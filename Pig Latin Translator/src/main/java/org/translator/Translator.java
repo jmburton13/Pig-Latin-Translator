@@ -28,6 +28,7 @@ public class Translator
         System.out.println("Thanks! Please type what you would like to have translated (exclude punctuation): ");
         String stringToConvert = scanner.nextLine();
 
+        //CONVERT AND PRINT TRANSLATION
         String printableTranslation = converter.convert(stringToConvert, isToPigLatin);
         System.out.println(printableTranslation);
         }
